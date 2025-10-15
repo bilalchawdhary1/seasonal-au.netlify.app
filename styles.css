@@ -12,17 +12,17 @@ body {
 }
 
 #season-title {
-  font-size: 0.5rem;
+  font-size: 0.7rem;
   font-weight: 500;
 }
 
 #season-subtitle,
 #season-date {
-  font-size: 0.75rem;
+  font-size: 0.7.7rem;
 }
 
 .temperature-info {
-  font-size: 0.5rem;
+  font-size: 0.7rem;
   font-weight: 400;
 }
 
@@ -69,7 +69,7 @@ body {
   max-height: 8rem;
   overflow-y: auto;
   top: calc(100% + 28px);
-  left: -.5rem;
+  left: -.7rem;
   transform: translateX(-70%);
 }
 
@@ -89,37 +89,37 @@ i#info-icon,
 .fa-github {
   padding: 1px;
   margin: 1px;
-  font-size: .5rem;
+  font-size: .7rem;
   color: black;
 }
 
 #weather-icon {
-  height: 0.5rem;
+  height: 0.7rem;
 }
 
 /* Responsive */
 @media only screen and (max-width: 580px) {
   #season-title {
-    font-size: .5rem;
+    font-size: .7rem;
   }
 
   #season-subtitle,
   #season-date {
-    font-size: .5rem;
+    font-size: .7rem;
   }
 
   .temperature-info {
-    font-size: .5rem;
+    font-size: .7rem;
   }
 
   i#info-icon,
   .fa-github {
-    font-size: .5rem;
+    font-size: .7rem;
   }
 
   .tooltip {
     width: 20rem;
-    font-size: .5rem;
+    font-size: .7rem;
   }
 }
 
