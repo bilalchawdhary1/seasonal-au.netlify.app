@@ -69,7 +69,7 @@ body {
   max-height: 8rem;
   overflow-y: auto;
   top: calc(100% + 28px);
-  left: -1rem;
+  left: -.5rem;
   transform: translateX(-70%);
 }
 
@@ -89,7 +89,7 @@ i#info-icon,
 .fa-github {
   padding: 1px;
   margin: 1px;
-  font-size: 1rem;
+  font-size: .5rem;
   color: black;
 }
 
@@ -100,26 +100,26 @@ i#info-icon,
 /* Responsive */
 @media only screen and (max-width: 580px) {
   #season-title {
-    font-size: 1rem;
+    font-size: .5rem;
   }
 
   #season-subtitle,
   #season-date {
-    font-size: 1rem;
+    font-size: .5rem;
   }
 
   .temperature-info {
-    font-size: 1rem;
+    font-size: .5rem;
   }
 
   i#info-icon,
   .fa-github {
-    font-size: 1rem;
+    font-size: .5rem;
   }
 
   .tooltip {
     width: 20rem;
-    font-size: 1rem;
+    font-size: .5rem;
   }
 }
 
