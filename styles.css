@@ -12,7 +12,7 @@ body {
 }
 
 #season-title {
-  font-size: 0.9rem;
+  font-size: 0.5rem;
   font-weight: 500;
 }
 
@@ -22,7 +22,7 @@ body {
 }
 
 .temperature-info {
-  font-size: 0.9rem;
+  font-size: 0.5rem;
   font-weight: 400;
 }
 
@@ -94,32 +94,32 @@ i#info-icon,
 }
 
 #weather-icon {
-  height: 0.9rem;
+  height: 0.5rem;
 }
 
 /* Responsive */
 @media only screen and (max-width: 580px) {
   #season-title {
-    font-size: 1.4rem;
+    font-size: 1rem;
   }
 
   #season-subtitle,
   #season-date {
-    font-size: 1.2rem;
+    font-size: 1rem;
   }
 
   .temperature-info {
-    font-size: 1.3rem;
+    font-size: 1rem;
   }
 
   i#info-icon,
   .fa-github {
-    font-size: 1.4rem;
+    font-size: 1rem;
   }
 
   .tooltip {
     width: 20rem;
-    font-size: 1.2rem;
+    font-size: 1rem;
   }
 }
 
