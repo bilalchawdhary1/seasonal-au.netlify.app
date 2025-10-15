@@ -12,17 +12,17 @@ body {
 }
 
 #season-title {
-  font-size: 1.1rem;
+  font-size: 0.9rem;
   font-weight: 500;
 }
 
 #season-subtitle,
 #season-date {
-  font-size: 0.875rem;
+  font-size: 0.75rem;
 }
 
 .temperature-info {
-  font-size: 1.1rem;
+  font-size: 0.9rem;
   font-weight: 400;
 }
 
@@ -33,11 +33,11 @@ body {
   justify-content: space-between;
   align-items: center;
   margin: 0 auto;
-  padding: 0.5rem;
-  border-radius: 16px;
+  padding: 0.4rem;
+  border-radius: 14px;
   background: rgba(255 255 255 / 83%);
-  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
-  backdrop-filter: blur(5px);
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(4px);
 }
 
 #season-info,
@@ -59,16 +59,16 @@ body {
   background: #fff;
   color: #333;
   font-family: 'Montserrat', sans-serif;
-  font-size: 14px;
-  margin: 0.5rem;
-  padding: 0.5rem;
-  width: 15rem;
-  border-radius: 16px;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  font-size: 12px;
+  margin: 0.4rem;
+  padding: 0.4rem;
+  width: 13rem;
+  border-radius: 12px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
   white-space: pre-line;
-  max-height: 10rem;
+  max-height: 8rem;
   overflow-y: auto;
-  top: calc(100% + 34px);
+  top: calc(100% + 28px);
   left: -1rem;
   transform: translateX(-70%);
 }
@@ -87,39 +87,39 @@ body {
 
 i#info-icon,
 .fa-github {
-  padding: 2px;
-  margin: 2px;
-  font-size: 1.2rem;
+  padding: 1px;
+  margin: 1px;
+  font-size: 1rem;
   color: black;
 }
 
 #weather-icon {
-  height: 1rem;
+  height: 0.9rem;
 }
 
 /* Responsive */
 @media only screen and (max-width: 580px) {
   #season-title {
-    font-size: 3rem;
+    font-size: 1.4rem;
   }
 
   #season-subtitle,
   #season-date {
-    font-size: 2rem;
+    font-size: 1.2rem;
   }
 
   .temperature-info {
-    font-size: 2.5rem;
+    font-size: 1.3rem;
   }
 
   i#info-icon,
   .fa-github {
-    font-size: 2.3rem;
+    font-size: 1.4rem;
   }
 
   .tooltip {
-    width: 25rem;
-    font-size: 1.7rem;
+    width: 20rem;
+    font-size: 1.2rem;
   }
 }
 
@@ -130,7 +130,7 @@ i#info-icon,
   }
 
   .temperature-info {
-    margin-top: 8px;
+    margin-top: 6px;
   }
 
   #weather-forecast-container {
